@@ -1,0 +1,53 @@
+@font-face {
+    font-family: futura-book;
+    src: url(../fonts/Futura\ Book\ font.ttf);
+}
+@font-face {
+    font-family: futura-bold;
+    src: url(../fonts/Futura\ Bold\ font.ttf);
+}
+@font-face {
+    font-family: futura-extra;
+    src: url(../fonts/Futura\ Extra\ Black\ font.ttf);
+}
+@font-face {
+    font-family: akira;
+    src: url(../fonts/akira_expanded/Akira\ Expanded\ Demo.otf);
+}
+
+:root{
+    --negro: #000000;
+    --blanco: #ffffff;
+    --dark: #27252c;
+    --dark2: #242135fb;
+    --dark2-t: #2421359f;
+    --light: #e6e6e6;
+    --list: #949494;
+    --color-p: #118afc;
+    
+    --textoFuente-p: Helvetica, Arial, sans-serif;
+    --textoFuente-s: Verdana;
+    --futura-titulo: futura-bold;
+    --futura-texto: futura-book;
+
+    --gap: 1.5em;
+
+
+    --transition-1: transform 0.5s;
+    --transition-2: width 0.5s;
+    --transition-3: background-color .5s;
+
+
+    --filter-b: brightness(200%);
+    --filter-w: invert(100%) sepia(0%) saturate(0%) hue-rotate(118deg) brightness(103%) contrast(103%);
+    --filter-g: invert(43%) sepia(0%) saturate(0%) hue-rotate(194deg) brightness(95%) contrast(90%);
+    --filter-b: invert(51%) sepia(82%) saturate(2051%) hue-rotate(200deg) brightness(110%) contrast(98%);
+    --filter-gg: invert(65%) sepia(0%) saturate(2449%) hue-rotate(25deg) brightness(107%) contrast(110%);
+    --filter-php: invert(48%) sepia(13%) saturate(1343%) hue-rotate(181deg) brightness(102%) contrast(94%);
+
+    --border1: 1px solid red;
+    --border2: 1px solid white;
+    --border3: 1px solid yellow;
+}
+
+/* ******************* */
